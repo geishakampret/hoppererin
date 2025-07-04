@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Meminta pengguna untuk memasukkan tanggal lahir
+echo "Masukkan tanggal lahir (format: DD MM YYYY): "
+read day month year
+
+# Membuat file teks dan menambahkan tanggal lahir ke dalamnya
+echo "Tanggal Lahir: $day $month $year" > jia_nayla_dob.txt
+
+echo "File teks telah dibuat dan diperbarui dengan tanggal lahir."
